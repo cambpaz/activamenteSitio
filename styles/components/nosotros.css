@@ -1,0 +1,151 @@
+.bigTextNosotros {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.margin {
+    margin: 2rem 10rem;
+}
+
+.ImgPurpleBg {
+    background: #6636dd;
+    padding: 3rem;
+}
+
+.imgBubbles {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.contMision {
+    border-radius: 107px;
+    background: rgba(255, 255, 255, 0.81);
+    padding: 4rem 3rem;
+}
+
+.textMision {
+    color: #6636dd;
+    text-align: center;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.bigTextMision {
+    color: #6636DD;
+    font-size: 3.4375rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.imgMision {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.smallTextNosotros {
+    color: #fff;
+    font-size: 1.575rem;
+    margin-top: 5rem;
+}
+
+.titleNosotros {
+    color: #fff;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+.contNumbers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigNumber {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.smallTextHistory {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.contImgsFounders {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.founder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textFounder {
+    text-align: center;
+}
+
+.imgFounder {
+    width: 19.5rem;
+    height: 22.5rem;
+    flex-shrink: 0;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.longTextFounders {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 3rem 10rem;
+}
+
+.freeTrial {
+    width: 100%;
+    text-align: center;
+    border-radius: 55px;
+    background: #6636dd;
+    padding: 4rem;
+}
+
+.bigTextFreeTrial {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.smallTextFreeTrial {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.btnFreeTrial {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #fff;
+    border-style: none;
+    color: #6636dd;
+    border-radius: 10px;
+    margin-top: 2rem;
+}

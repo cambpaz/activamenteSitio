@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header class="header-cart">
+        <a href="/pages/home.html"><img src="../images/nav/logo.svg" alt="" class="logo-img"></a>
+        <div class="pago-seguro">
+            <img class="lock" src="../images/cart/lock-cart.png" alt="">
+            <h3 class="texto-pago-seguro">Pago 100% seguro</h3>
+        </div>
+    </header>
+    <main class="main-cart">
+        <div class="contenedor-pagos">
+            <div class="contenedor-vistos">
+                <img src="../images/cart/bag.svg" alt="" class="bag">
+                <p>¡Hay 4 personas que están comprando lo mismo que tú!</p>
+            </div>
+            <div class="como-quieres-pagar">
+                <a class="regresar" href="./carrito1.html"><img class="arrow-cart" src="../images/cart/arrow-cart.svg"
+                        alt="">Regresar</a>
+                <a class="regresar" href="./carrito2.html"><img class="arrow-cart" src="../images/cart/arrow-cart.svg"
+                        alt="">Datos personales</a>
+                <form class="form-cart" action="submit" method="post">
+                    <input class="input-cart" type="text" id="titular" name="titular"
+                        placeholder="Titular de la tarjeta" required><br>
+
+                    <input class="input-cart" type="number" id="numero_tarjeta" name="documento"
+                        placeholder="Numero de tarjeta" required><br>
+
+                    <input class="input-cart" type="date" id="vencimiento" name="vencimiento"
+                        placeholder="Fecha de vencimiento" required><br>
+
+                    <input class="input-cart" type="number" id="cvv" name="cvv" placeholder="CVV" required><br>
+
+                    <div class="check-usodedatos">
+                        <img src="../images/rectangle-filter.svg" alt="">
+                        <p>Autorizo que Activa-mente use los datos proporcionados para contactarme y recibir promociones, ofertas e información de nuevos productos.</p>
+                    </div>
+                    <div class="check-usodedatos">
+                        <svg width="20" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1.5" y="1.5" width="27" height="26" rx="3.5" stroke="#043F3F" stroke-width="3"/>
+                            <rect x="7.5" y="7.5" width="15" height="14" rx="3.5" fill="#043F3F" stroke="#043F3F" stroke-width="3"/>
+                            </svg>
+                        <p>Acepto expresamente todos los Términos y condiciones</p>
+                    </div>
+                    <a class="btn-continuar" href="./detalleCompra.html">Finalizar</a>
+                    <input type="submit" class="btn-continuar" value="validar">
+
+                </form>
+            </div>
+        </div>
+        <div class="contenedor-detalles">
+            <h3>TU CARRITO ESTÁ LISTO</h3>
+            <img class="img-curso" src="../images/cart/img-curso.png" alt="">
+            <h4>Retoque fotográfico de imágenes raw</h4>
+            <hr>
+            <div class="total-pagar">
+                <h4 class="total">Total:</h4>
+                <h4 class="precio">$2.500</h4>
+            </div>
+            <hr>
+            <p>El cobro va a ser de US$ 25, los precios base que manejamos son en dólares americanos. El monto que ves
+                en tu moneda local es un aproximado que puede variar de acuerdo a tu banco y el tipo de cambio del día,
+                está sujeto a impuestos propios de cada país, los cuales serán asumidos por los usuarios finales.
+
+                (1) Acepto expresamente todos los Términos y Condiciones de Membresías Premium y Pay As You Go. Del
+                mismo, modo acepto las Políticas y Avisos de Protección y Tratamiento de Datos Personales de Crehana:
+                Generales, Colombia, México.</p>
+        </div>
+    </main>
+</body>
+</html>

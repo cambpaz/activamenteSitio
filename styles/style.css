@@ -1,0 +1,70 @@
+@import "components/header.css";
+@import "components/login.css";
+@import "components/hero.css";
+@import "components/academy.css";
+@import "components/courses.css";
+@import "components/celebrities.css";
+@import "components/download.css";
+@import "components/footer.css";
+@import "components/categoria.css";
+@import "components/trabaja.css";
+@import "components/cart.css";
+@import "components/nosotros.css";
+@import "components/grants.css";
+@import "components/historias-exito.css";
+
+:root {
+  --darkgreen: #043f3f;
+  --search-bg: rgba(4, 63, 63, 0.5);
+  --aqua: #00e2db;
+  --purple: #6636dd;
+  --white: #ffffff;
+  --black: #111111;
+  --opacity: rgba(113, 113, 113, 0.7);
+  --light-green: rgba(65, 115, 115, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.wrapper,
+.wrapper main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--darkgreen);
+  color: var(--white);
+}
+
+h1 {
+  margin: auto;
+  font-size: 2.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--darkgreen);
+}
+
+.green {
+  color: var(--darkgreen);
+}
+
+.lightgreen {
+  color: var(--light-green);
+}
+
+.pointer {
+  cursor: pointer;
+}
+

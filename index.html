@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>Activamente</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="cont-main">
+        <div class="cont-img">
+            <img src="images/logo.svg" alt="">
+        </div>
+        <div class="cont-right">
+            <!-- CONTENEDOR TEXTO -->
+            <div class="cont-welcome-text">
+                <h2 class="big-text">HOLA! <br> TE EXTRAÑAMOS!</h2>
+                <p class="small-text">Que bueno verte de vuelta :D</p>
+                <div class="cont-logos">
+                </div>
+                <!-- logos rrss -->
+            </div>
+            <!-- CONTENEDOR FORM -->
+            <form method="post" class="cont-form">
+                <label for="email" class="form-text">Email</label>
+                <div class="cont-input">
+                    <input type="email" id="email" class="input-login" placeholder="Ingresa tu correo electrónico"
+                        required />
+                </div>
+                <label for="password" class="form-text">Contraseña</label>
+                <div class="cont-input">
+                    <input type="password" id="password" class="input-login" placeholder="Ingresa tu contraseña"
+                        required />
+                </div>
+                <a href="#" class="green pointer">¿Olvidaste tu contraseña?</a>
+                <div class="cont-boton">
+                    <a href="./pages/home.html" class="btn-home">Iniciar sesión</a>
+                    <input type="submit" value="Validar" class="btn-home"/>
+                </div>
+            </form>
+
+            <div class="cont-registrate">
+                <p class="green pointer">¿No tienes cuenta? <br>Registrate</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/validFormLogin.js"></script>
+</html>

@@ -1,0 +1,77 @@
+.cont-porcentajes {
+    background-color: #6636DD;
+    padding: 5rem;
+}
+
+.empresaTexto {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.textoEquipos {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.contNumeros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.porcentaje {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5rem;
+}
+
+.porcentaje p {
+    text-align: center;
+}
+
+.numeroPorcentaje {
+    color: #FFF;
+    font-size: 4rem;
+    font-family: Roboto;
+    font-weight: 900;
+}
+
+.container-experiencias {
+    background: #00E2DB;
+}
+
+.tituloExperiencias {
+    color: #043F3F;
+    font-size: 4.5rem;
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: center;
+}
+
+.textoExperiencias {
+    color: #043F3F;
+    font-size: 2rem;
+    font-family: Roboto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cont-experiencia-individual {
+    display: flex;
+    gap: 3rem;
+    margin: 6rem;
+}
+
+.experiencia {
+    border-radius: 30px;
+    background: #043F3F;
+    padding: 3rem;
+}
+

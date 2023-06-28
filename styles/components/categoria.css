@@ -1,0 +1,177 @@
+header {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    width: 8rem;
+    margin: 2.5rem;
+}
+
+.nav-item {
+    margin: 5rem 2rem;
+}
+
+.nav-link {
+    color: #043F3F;
+    font-weight: 500;
+}
+
+/* termina header */
+
+.cont-category {
+    margin: 1rem 12.5rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* EMPIEZA CRUMB */
+.crumb {
+    display: flex;
+    flex-direction: row;
+}
+
+.crumb_text {
+    font-size: 20px;
+    margin-top: 10px;
+    color: var(--purple);
+}
+
+.crumb_arrow {
+    margin: 1px 8px;
+}
+
+/* TERMINA CRUMB */
+
+.cont-page-category {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+}
+
+.cont-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.curso-individual {
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+
+.img-curso {
+    border-radius: 40px;
+    z-index: 1;
+}
+
+.cont-curso-text {
+    padding: 30px;
+    padding-top: 60px;
+    background-color: var(--purple);
+    margin-top: -40px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.cont-curso-text>* {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* BOTONES */
+.cont-botones {
+    display: flex;
+    align-items: center;
+}
+
+.btn-cart {
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: var(--purple);
+    padding: 10px 15px;
+}
+
+.btn-vermas {
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 19px 20px;
+    border-color: white;
+    border-radius: 10px;
+    border-style: none;
+    color: #6636DD;
+}
+
+.title-category {
+    font-size: 1.575rem;
+}
+
+.container-big {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.cont-all-courses {
+    flex: 3;
+}
+
+.cont-all-courses>h3 {
+    font-size: 25px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--darkgreen);
+}
+
+.filter {
+    margin: 1rem 0;
+}
+
+.subtitle {
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.subtitle img {
+    margin-right: .5rem;
+}
+
+.subtitle svg {
+    margin-right: .5rem;
+}
+
+@media (max-width: 850px) {
+
+    .cont-category {
+        margin: 1rem;
+    }
+    
+    .cont-page-category {
+        margin: 0;
+    }
+
+    .curso-individual {
+        margin: 1rem 0.5rem;
+    }
+
+    .container-big {
+        flex-direction: column;
+    }
+}

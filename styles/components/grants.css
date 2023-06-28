@@ -1,0 +1,312 @@
+.wrapper_grants {
+  background-color: var(--darkgreen);
+}
+/* HEADER */
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 15vh;
+  background-color: var(--purple);
+  padding: 2rem;
+}
+
+.header_container img {
+  width: 120px;
+  object-fit: contain;
+}
+
+/* HERO */
+.hero_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 85vh;
+  background: rgba(102, 54, 221, 0.65);
+}
+
+.hero_container .hero_img {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero_container .hero_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  color: var(--white);
+  padding: 2rem;
+}
+
+.hero_container .hero_content h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero_container .hero_content p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.hero_container .hero_content .stepper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.hero_container .hero_content .stepper .step {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 200px;
+}
+
+.hero_container .hero_content .stepper .step .step_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--darkgreen);
+  margin-bottom: 0.5rem;
+}
+
+.hero_container .hero_content .stepper .step .step_item p {
+  font-size: 5rem;
+  margin: auto;
+}
+
+.hero_container .hero_content .stepper .step .step_text {
+  font-size: 1rem;
+  font-weight: 500;
+  height: 50px;
+}
+
+.hero_container .hero_content .hero_final-text {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 750px) {
+  .hero_container .hero_content h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .hero_container .hero_content p {
+    font-size: 1.2rem;
+  }
+  .hero_container .hero_content .hero_final-text {
+    font-size: 1.2rem;
+  }
+}
+
+/* MISSION AND VISION */
+.mission_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 2rem;
+  margin: auto;
+  background-color: var(--darkgreen);
+  color: var(--white);
+}
+
+.mission_container .box_mission {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem;
+}
+.mission_container .box_mission .text-mission {
+  text-align: center;
+}
+.mission_container .box_mission .img-mission {
+  height: 150px;
+}
+.mission_container .box_mission h3{
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.mission_container .box_mission .mission {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.mission_container .box_mission .vision {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+@media (max-width: 750px) {
+  .mission_container .box_mission {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+/* GRANTS */
+.container_grants {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.container_grants .box_grant-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--purple);
+  background-color: var(--purple);
+}
+
+.container_grants .box_grant-main .main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  padding: 1rem 2rem;
+}
+
+.container_grants .box_grant-main .main-title h2 {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.container_grants .box_grant-main .grant-main-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vh;
+  width: 100%;
+  background-color: var(--purple);
+  color: var(--white);
+  max-width: 1100px;
+  margin: auto;
+}
+
+.container_grants .box_grant-main .grant-main-content li {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.container_grants .box_grant-main .grant-main-content li img {
+  height: 10px;
+  margin-left: 0.6rem;
+}
+
+.container_grants .box_grant-main .grant-main-content li a {
+color: var(--white);
+}
+
+@media (max-width: 750px) {
+  .container_grants .box_grant-main .grant-main-content {
+    height: auto;
+  }
+}
+
+.container_grants .box_grant-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--purple);
+  background-color: var(--purple);
+}
+
+.container_grants .box_grant-item .item-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  padding: 1rem 2rem;
+}
+
+.container_grants .box_grant-item .item-title h2 {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.container_grants .box_grant-item .item-title img {
+  width: 40px;
+}
+
+.container_grants .box_grant-item .item-content {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  padding: 1rem 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.container_grants .box_grant-item .item-content .item-content-title{
+  max-width: 70%;
+  margin-bottom: 1rem;
+}
+
+.container_grants .box_grant-item .item-content .item-list li{
+  display: flex;
+  align-items: center;
+}
+
+.container_grants .box_grant-item .item-content .item-list li img{
+  width: 6px;
+  margin-right: .6rem;
+}
+
+@media (max-width: 750px) {
+  .container_grants .box_grant-item .item-content .item-content-title{
+    max-width: 100%;
+  }
+}
+
+/* FOOTER */
+.box-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  padding: 3rem 2rem;
+  margin: auto;
+  background-color: var(--darkgreen);
+  color: var(--white);
+  height: 15vh;
+  text-align: center;
+}
+
+.box-footer h3{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,44 @@
+.container_academy {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 2rem;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.container_academy h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.container_academy-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  grid-template-rows: 200px;
+  gap: 1rem;
+}
+
+.container_academy-cards .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--aqua);
+  color: var(--darkgreen);
+  border-radius: 1.3rem;
+  padding: 1.2rem 1rem;
+  height: 200px;
+  width: 100%;
+}
+
+.container_academy-cards .card .card-content p{
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.container_academy-cards .card img{
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
+}

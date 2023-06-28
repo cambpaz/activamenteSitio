@@ -1,0 +1,169 @@
+.container_hero {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 2rem;
+  max-width: 1100px;
+}
+
+.title-welcome {
+  font-size: 3.5rem;
+}
+
+/* LEFT SEC */
+
+.hero_box {
+  position: relative;
+  margin: 2rem;
+}
+
+.hero_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 500px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  color: var(--white);
+  background-color: var(--opacity);
+  border-radius: 25px;
+  padding: 2rem 1rem;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-content h4 {
+  margin-bottom: 0.5rem;
+}
+
+.current-video {
+  display: flex;
+  align-items: center;
+}
+
+.current-video img {
+  width: 40px;
+  margin-right: 0.3rem;
+}
+
+.current-video h5 {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+/* RIGHT SEC */
+
+.container_box-right {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 2rem;
+}
+
+.last-project {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-project h3 {
+  margin-bottom: 1rem;
+}
+
+.box_last-project {
+  display: flex;
+  background-color: var(--aqua);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 350px;
+  height: 100%;
+}
+
+.box_last-project img {
+  width: 100px;
+}
+
+.cont-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 0.6rem;
+}
+
+.cont-start h4 {
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+.cont-start button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  background-color: var(--white);
+  color: var(--purple);
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.other-courses {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  max-width: 350px;
+}
+
+.other-courses h3 {
+  margin-bottom: 1rem;
+}
+
+.box_other-courses {
+  display: flex;
+  align-items: center;
+}
+
+.box_other-courses img {
+  width: 130px;
+  margin-right: 1rem;
+}
+
+.cont-other-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.cont-other-details span {
+  color: var(--aqua);
+  font-weight: 500;
+}
+
+
+@media (max-width: 850px) {
+
+  .container_hero {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .title-welcome {
+    font-size: 1.5rem;
+  }
+}
